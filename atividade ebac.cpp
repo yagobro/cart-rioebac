@@ -167,7 +167,7 @@ int main() {
         printf("\t1 - Registrar nomes\n");
         printf("\t2 - Consultar nomes\n");
         printf("\t3 - Deletar nomes\n");
-        printf("\t0 - Sair\n");  // Adicionando a opção para sair
+        printf("\t4 - Sair\n");  // Adicionando a opção para sair
         printf("Opção: "); // Fim do menu
         
         // Lê a opção escolhida
@@ -189,7 +189,7 @@ int main() {
                 deletar(); // Função para deletar
                 break;
             
-            case 0:
+            case 4:
                 printf("Saindo do sistema...\n");
                 exit(0); // Encerra o programa
                 break;
